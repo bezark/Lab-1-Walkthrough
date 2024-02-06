@@ -5,5 +5,6 @@
 [node name="Dummy" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(546, 263)
+modulate = Color(1, 0.168627, 1, 1)
+position = Vector2(1016, 490)
 texture = ExtResource("1_k0vma")

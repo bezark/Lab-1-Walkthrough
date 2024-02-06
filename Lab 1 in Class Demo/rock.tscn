@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://7a8831t6bqpo"]
+
+[sub_resource type="PrismMesh" id="PrismMesh_kj5yo"]
+left_to_right = -0.4
+
+[sub_resource type="PrismMesh" id="PrismMesh_m5rpy"]
+left_to_right = 2.0
+
+[node name="Rock" type="MeshInstance3D"]
+mesh = SubResource("PrismMesh_kj5yo")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("PrismMesh_m5rpy")
